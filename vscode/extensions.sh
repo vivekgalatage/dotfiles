@@ -10,3 +10,4 @@ code --install-extension mushan.vscode-paste-image
 
 # clangd
 code --install-extension llvm-vs-code-extensions.vscode-clangd
+

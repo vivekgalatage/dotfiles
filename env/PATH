@@ -22,3 +22,4 @@ set -x PATH $PATH $HOMEBREW_BIN_DIR $DEPOT_TOOLS $CORE_TOOLS
 for file in $script_dir/PATH_INTERNAL*
     source $file
 end
+

@@ -6,3 +6,4 @@ Contains various configurations of different applications
 * [iTerm2](iterm2/README.md)
 * [Rectangle](rectangle/README.md)
 * [VSCode](vscode/README.md)
+

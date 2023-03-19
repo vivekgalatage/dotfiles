@@ -11,3 +11,4 @@ Use below command to get rid of it
 ```
 set -U fish_greeting
 ```
+
