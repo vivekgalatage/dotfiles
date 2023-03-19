@@ -14,12 +14,9 @@ end
 set HOMEBREW_BIN_DIR $HOMEBREW_BASE_DIR/bin
 
 set WORKSPACE_DIR $HOME/workspace
-set DEPOT_TOOLS $WORKSPACE_DIR/depot_tools
-set CORE_TOOLS $WORKSPACE_DIR/core-tools/scripts
 
-set -x PATH $PATH $HOMEBREW_BIN_DIR $DEPOT_TOOLS $CORE_TOOLS
+set -x PATH $PATH $HOMEBREW_BIN_DIR
 
-for file in $script_dir/PATH_INTERNAL*
+for file in $script_dir/PATH_*
     source $file
 end
-
