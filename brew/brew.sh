@@ -12,6 +12,7 @@ chsh -s /opt/homebrew/bin/fish
 
 # Utilities
 brew install clang-format
+brew install cmake
 brew install jq
 
 # Programming fonts
