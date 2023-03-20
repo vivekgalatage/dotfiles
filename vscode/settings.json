@@ -1,0 +1,23 @@
+{
+  "[cpp]": {
+    "editor.defaultFormatter": "xaver.clang-format",
+    "editor.formatOnSave": true
+  },
+  "[markdown]": {
+    "editor.fontFamily": "'Shantell Sans Light'",
+    "editor.fontSize": 24,
+    "editor.lineHeight": 1.8
+  },
+  "clang-format.fallbackStyle": "Chromium",
+  "editor.fontFamily": "Monaco",
+  "editor.fontSize": 24,
+  "editor.minimap.enabled": false,
+  "editor.rulers": [
+    80
+  ],
+  "editor.tabSize": 2,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "Notes.notesLocation": "${HOME}/Documents/notes"
+}
