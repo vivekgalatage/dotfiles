@@ -19,5 +19,6 @@
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
-  "Notes.notesLocation": "${HOME}/Documents/notes"
+  "Notes.notesLocation": "${HOME}/Documents/notes",
+  "terminal.integrated.fontSize": 20
 }
