@@ -19,6 +19,8 @@
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
+  "insertDateString.formatDate": "# DD-MMM-YYYY",
+  "insertDateString.format": "## HH:mm A - ",
   "Notes.notesLocation": "${HOME}/Documents/notes",
   "terminal.integrated.fontSize": 20
 }
