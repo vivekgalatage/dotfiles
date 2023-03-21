@@ -2,24 +2,24 @@
   "Add QA Test Case": {
     "prefix": "qa",
     "body": [
-      "# ${1:test_case_name}",
+      "## ${1:test_case_name}",
       "",
-      "## ID",
+      "### ID",
       "${CURRENT_SECONDS_UNIX}",
       "",
-      "## Priority",
+      "### Priority",
       "${2|p0,p1,p2|}",
       "",
-      "## Labels",
+      "### Labels",
       "* ${3:List of labels}",
       "",
-      "## Pre-Condition or Test Data",
+      "### Pre-Condition or Test Data",
       "* $4",
       "",
-      "## Steps",
+      "### Steps",
       "1. $5",
       "",
-      "## Expected Results",
+      "### Expected Results",
       "* $6",
       ""
     ]
@@ -27,7 +27,7 @@
   "Add QA Test Case - Labels": {
     "prefix": "qa.labels",
     "body": [
-      "## Labels",
+      "### Labels",
       "* ${1:List of labels}",
       ""
     ]
@@ -35,7 +35,7 @@
   "Add QA Test Case - Priority": {
     "prefix": "qa.priority",
     "body": [
-      "## Priority",
+      "### Priority",
       "${2|p0,p1,p2|}",
       ""
     ]
