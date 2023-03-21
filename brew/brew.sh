@@ -13,7 +13,10 @@ chsh -s /opt/homebrew/bin/fish
 # Utilities
 brew install clang-format
 brew install cmake
+brew install diff-so-fancy
 brew install jq
+brew install tree
+brew install watch
 
 # Programming fonts
 brew install --cask font-meslo-lg-nerd-font

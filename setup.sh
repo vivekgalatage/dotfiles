@@ -3,7 +3,13 @@
 SCRIPT_PATH=$(dirname "$0")
 SCRIPT_DIR=$(realpath "$SCRIPT_PATH")
 
-source "$SCRIPT_DIR/vscode/setup.sh"
+# Use glob to find all setup.sh files in subdirectories
+setup_files=( "$SCRIPT_DIR"/**/setup.sh )
+
+# Loop through each setup.sh file and source it
+for file in "${setup_files[@]}"; do
+  source "$file"
+done
 
 # Run all functions with name "foo"
 for func in $(declare -F | awk '{print $3}' | grep "^setup_.*"); do
