@@ -22,5 +22,7 @@
   "insertDateString.formatDate": "# DD-MMM-YYYY",
   "insertDateString.format": "## HH:mm A - ",
   "Notes.notesLocation": "${HOME}/Documents/notes",
+  "pasteImage.path": "${currentFileDir}/images/",
+  "pasteImage.showFilePathConfirmInputBox": true,
   "terminal.integrated.fontSize": 20
 }
