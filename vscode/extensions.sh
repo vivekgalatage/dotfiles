@@ -28,3 +28,6 @@ code --install-extension msedge-dev.gnls
 
 # Insert-Date String
 code --install-extension jsynowiec.vscode-insertdatestring
+
+# Bookmarks
+code --install-extension alefragnani.Bookmarks
