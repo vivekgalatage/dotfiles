@@ -31,3 +31,6 @@ code --install-extension jsynowiec.vscode-insertdatestring
 
 # Bookmarks
 code --install-extension alefragnani.Bookmarks
+
+# Markdown Lint
+code --install-extension davidanson.vscode-markdownlint
