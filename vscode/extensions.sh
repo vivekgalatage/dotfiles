@@ -34,3 +34,6 @@ code --install-extension alefragnani.Bookmarks
 
 # Markdown Lint
 code --install-extension davidanson.vscode-markdownlint
+
+# Mardown Preview Enhanced
+code --install-extension shd101wyy.markdown-preview-enhanced

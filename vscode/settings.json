@@ -21,6 +21,7 @@
   "files.trimTrailingWhitespace": true,
   "insertDateString.formatDate": "# DD-MMM-YYYY",
   "insertDateString.format": "## HH:mm A - ",
+  "markdown-preview-enhanced.previewTheme": "atom-dark.css",
   "Notes.notesLocation": "${HOME}/Documents/notes",
   "pasteImage.path": "${currentFileDir}/images/",
   "pasteImage.showFilePathConfirmInputBox": true,
