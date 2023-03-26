@@ -11,7 +11,7 @@ for file in "${setup_files[@]}"; do
   source "$file"
 done
 
-# Run all functions with name "foo"
+# Run all functions with prefix "setup_": e.g. setup_vscode, setup_git, etc.
 for func in $(declare -F | awk '{print $3}' | grep "^setup_.*"); do
     type $func >/dev/null 2>&1 && $func "$SCRIPT_DIR"
 done
