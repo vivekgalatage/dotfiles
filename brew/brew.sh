@@ -28,5 +28,6 @@ brew install --cask font-shantell-sans
 
 # Utility apps
 brew install --cask itsycal
-brew install --cask stats
+brew install --cask origami-studio
 brew install --cask rectangle
+brew install --cask stats
