@@ -1,5 +1,5 @@
 #!/usr/bin/env fish
 
-set DEPOT_TOOLS $WORKSPACE_DIR/depot_tools
+set -x DEPOT_TOOLS $WORKSPACE_DIR/depot_tools
 
 set -x PATH $PATH $DEPOT_TOOLS
