@@ -37,3 +37,6 @@ code --install-extension davidanson.vscode-markdownlint
 
 # Mardown Preview Enhanced
 code --install-extension shd101wyy.markdown-preview-enhanced
+
+# GitHub Actions
+code --install-extension GitHub.vscode-github-actions
