@@ -15,6 +15,7 @@ brew install clang-format
 brew install cmake
 brew install diff-so-fancy
 brew install eddieantonio/eddieantonio/imgcat
+brew install gh
 brew install jq
 brew install noahgorstein/tap/jqp
 brew install tree
