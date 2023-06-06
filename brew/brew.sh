@@ -11,6 +11,7 @@ echo /opt/homebrew/bin/fish | sudo tee -a /etc/shells
 chsh -s /opt/homebrew/bin/fish
 
 # Utilities
+brew install cirruslabs/cli/tart
 brew install clang-format
 brew install cmake
 brew install diff-so-fancy
