@@ -18,6 +18,7 @@ brew install eddieantonio/eddieantonio/imgcat
 brew install gh
 brew install jq
 brew install noahgorstein/tap/jqp
+brew install node
 brew install tree
 brew install watch
 
